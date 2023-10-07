@@ -12,14 +12,6 @@ Installation
 
 Usage
 -----
-There are only two differences from `vmrun`:
-1. The `vmm start` will automatically start a VM in the background, without opening a console window.
-2. You only have to give the machine name and not the full path to the `.vmx` file.
-
-All other commands are passed directly to `vmrun`, see the [vmrun documentation](https://docs.vmware.com/en/VMware-Fusion/13/com.vmware.fusion.using.doc/GUID-24F54E24-EFB0-4E94-8A07-2AD791F0E497.html) for more information.
-
-Examples
---------
 ```
 C:\Users\jfox>vmm start freebsd
 ```
